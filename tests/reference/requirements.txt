@@ -1,0 +1,7 @@
+# Python packages of the reference tooling. Never linked into elliDFT and not
+# needed to build or test it.
+pyscf==2.15.0
+numpy==2.5.4
+scipy==1.18.1
+# Only for scripts/make_geometries.py --oligomers (provisional oligomer geometries):
+rdkit==2026.9.2

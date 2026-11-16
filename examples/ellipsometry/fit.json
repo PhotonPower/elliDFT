@@ -1,0 +1,14 @@
+{
+  // Fit of thickness and Cauchy dispersion of the film to the table
+  // example_data.txt (computed with simulate.json, not a measurement).
+  "ambient": {"model": "constant", "n": 1.0},
+  "layers": [
+    {"name": "film", "thickness_nm": {"value": 100, "fit": true, "min": 0, "max": 1000, "scan": [50, 950, 10]},
+     "material": {"model": "cauchy", "A": {"value": 1.5, "fit": true}, "B": {"value": 0.005, "fit": true},
+                  "C": {"value": 0.0, "fit": true}}},
+    {"name": "oxide", "thickness_nm": 2.0, "material": {"model": "cauchy", "A": 1.45, "B": 0.0036}}
+  ],
+  "substrate": {"model": "table", "file": "substrate_invented.txt"},
+  "data": {"file": "example_data.txt"},
+  "residuals": "ncs"
+}

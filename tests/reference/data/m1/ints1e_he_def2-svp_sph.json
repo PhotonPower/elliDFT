@@ -1,0 +1,44 @@
+{
+ "meta": {
+  "generated_by": "tests/reference/gen_m1.py",
+  "program": "PySCF",
+  "pyscf_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "python_version": "3.14.5",
+  "bohr_in_angstrom": 0.529177210903,
+  "settings": {
+   "conventions": {
+    "order_spherical": "p: x y z; l >= 2: m = -l..+l (real solid harmonics)",
+    "order_cartesian": "lexicographic: xx xy xz yy yz zz, ...",
+    "normalisation": "spherical: 1; cartesian l >= 2: radial part only (libcint)",
+    "nuclear": "-sum_A Z_A <mu|1/r_A|nu>, point nuclei",
+    "dipole": "<mu|r_k|nu>, origin (0,0,0)",
+    "eri": "(mu nu|lambda sigma), chemists' notation",
+    "packing_symmetric": "lower triangle, row by row: (0,0) (1,0) (1,1) (2,0) ...",
+    "packing_eri": "8-fold: ij = i(i+1)/2 + j for i >= j, value index ij(ij+1)/2 + kl for ij >= kl"
+   }
+  }
+ },
+ "molecule": {
+  "charge": 0,
+  "symbols": ["He"],
+  "geometry_bohr": [
+   [0.0, 0.0, 0.0]
+  ]
+ },
+ "basis": {
+  "name": "def2-SVP",
+  "spherical": true
+ },
+ "n_functions": 5,
+ "function_labels": ["0 He 1s", "0 He 2s", "0 He 2px", "0 He 2py", "0 He 2pz"],
+ "matrices": {
+  "overlap": [0.9999999999999998, 0.6341517702467708, 1.0000000000000002, 0.0, 0.0, 1.0000000000000002, 0.0, 0.0, 0.0, 1.0000000000000002, 0.0, 0.0, 0.0, 0.0, 1.0000000000000002],
+  "kinetic": [2.922359035416945, 0.4666175968932307, 0.4463672392950001, 0.0, 0.0, 2.5000000000000004, 0.0, 0.0, 0.0, 2.5000000000000004, 0.0, 0.0, 0.0, 0.0, 2.5000000000000004],
+  "nuclear": [-4.802624551663007, -2.012364523374349, -1.74100724952679, 0.0, 0.0, -2.1276921621409746, 0.0, 0.0, 0.0, -2.1276921621409746, 0.0, 0.0, 0.0, 0.0, -2.1276921621409746],
+  "dipole_x": [0.0, 0.0, 0.0, 0.37426032844392493, 0.5941717044200849, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "dipole_y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.37426032844392493, 0.5941717044200849, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "dipole_z": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.37426032844392493, 0.5941717044200849, 0.0, 0.0, 0.0]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "meta": {
+  "generated_by": "tests/reference/gen_m1.py",
+  "program": "PySCF",
+  "pyscf_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "python_version": "3.14.5",
+  "bohr_in_angstrom": 0.529177210903,
+  "settings": {
+   "conventions": {
+    "order_spherical": "p: x y z; l >= 2: m = -l..+l (real solid harmonics)",
+    "order_cartesian": "lexicographic: xx xy xz yy yz zz, ...",
+    "normalisation": "spherical: 1; cartesian l >= 2: radial part only (libcint)",
+    "nuclear": "-sum_A Z_A <mu|1/r_A|nu>, point nuclei",
+    "dipole": "<mu|r_k|nu>, origin (0,0,0)",
+    "eri": "(mu nu|lambda sigma), chemists' notation",
+    "packing_symmetric": "lower triangle, row by row: (0,0) (1,0) (1,1) (2,0) ...",
+    "packing_eri": "8-fold: ij = i(i+1)/2 + j for i >= j, value index ij(ij+1)/2 + kl for ij >= kl"
+   }
+  }
+ },
+ "molecule": {
+  "charge": 0,
+  "symbols": ["H", "H"],
+  "geometry_bohr": [
+   [0.0, 0.0, 0.0],
+   [0.0, 0.0, 1.4000000000000001]
+  ]
+ },
+ "basis": {
+  "name": "6-31G*",
+  "spherical": false
+ },
+ "n_functions": 4,
+ "function_labels": ["0  H 1s", "0  H 2s", "1  H 1s", "1  H 2s"],
+ "matrices": {
+  "overlap": [1.0, 0.6582919696830692, 1.0000000000000002, 0.45453898296685347, 0.5087615979668355, 1.0, 0.5087615979668355, 0.8538052090789551, 0.6582919696830692, 1.0000000000000002],
+  "kinetic": [1.395678380620275, 0.2597349959888352, 0.24191663820000003, 0.23200115346058828, 0.1660172483302862, 1.395678380620275, 0.16601724833028614, 0.18478593051955797, 0.2597349959888352, 0.24191663820000003],
+  "nuclear": [-2.3556124334173205, -1.1806329361884704, -1.1688395209022593, -1.0396633944394817, -0.944573070636529, -2.3556124334173205, -0.9445730706365291, -1.0393048491695365, -1.1806329361884704, -1.1688395209022593],
+  "dipole_x": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "dipole_y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "dipole_z": [0.0, 0.0, 0.0, 0.31817728807679746, 0.580352268926762, 1.4000000000000001, 0.13191396822680773, 0.5976636463552686, 0.921608757556297, 1.4000000000000004]
+ }
+}

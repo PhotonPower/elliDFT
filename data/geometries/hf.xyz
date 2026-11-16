@@ -1,0 +1,4 @@
+2
+HF, r = 0.9168; nominal test geometry (scripts/make_geometries.py), not a literature value
+F      0.000000000000000     0.000000000000000     0.000000000000000
+H      0.000000000000000     0.000000000000000     0.916800000000000

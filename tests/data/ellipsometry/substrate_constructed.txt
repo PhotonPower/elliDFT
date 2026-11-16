@@ -1,0 +1,5 @@
+# CONSTRUCTED test input, invented numbers. wavelength_nm n k
+300 5.00 4.20
+500 4.30 0.07
+700 3.78 0.01
+1000 3.57 0.0

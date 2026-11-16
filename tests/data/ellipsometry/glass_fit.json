@@ -1,0 +1,17 @@
+{
+  "comment": "Test input: thicknesses and ordinary index from glass_data.txt; expected 240 nm, 4 nm and A = 1.58",
+  "materials": {
+    "film_o": {"model": "cauchy", "A": {"value": 1.55, "fit": true}, "B": 0.008},
+    "film_e": {"model": "cauchy", "A": 1.61, "B": 0.009}
+  },
+  "layers": [
+    {"name": "rough", "thickness_nm": {"value": 2.0, "fit": true, "max": 20},
+     "material": {"model": "bruggeman", "a": "film_o", "b": {"model": "constant", "n": 1.0}, "fraction_b": 0.5}},
+    {"name": "film", "thickness_nm": {"value": 220.0, "fit": true, "scan": [150, 350, 5]},
+     "material": "film_o", "material_extraordinary": "film_e"}
+  ],
+  "substrate": {"model": "constant", "n": 1.52},
+  "substrate_thickness_mm": 1.0,
+  "data": {"file": "glass_data.txt"},
+  "residuals": "psi_delta"
+}

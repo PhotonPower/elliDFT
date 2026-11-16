@@ -1,0 +1,11 @@
+{
+  // Smallest possible example (H2, minimal basis, Hartree-Fock): a test of the
+  // program, not a result. Real calculations need a basis with diffuse
+  // functions and a server.
+  "geometry": "../../data/geometries/h2.xyz",
+  "basis": "STO-3G",
+  "functional": "HF",
+  "time_step": 0.4,
+  "kerr": {"wavelengths_nm": [780], "amplitude": 0.01, "ramp_time": 150, "periods": 1,
+           "film": {"density_g_cm3": 1.0, "molar_mass_g_mol": 100.0, "refractive_index": 1.5}}
+}

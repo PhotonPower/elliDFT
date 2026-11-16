@@ -1,0 +1,15 @@
+{
+  "comment": "Test input: oriented film with a rough surface on a glass plate; produces glass_data.txt",
+  "materials": {
+    "film_o": {"model": "cauchy", "A": 1.58, "B": 0.008},
+    "film_e": {"model": "cauchy", "A": 1.61, "B": 0.009}
+  },
+  "layers": [
+    {"name": "rough", "thickness_nm": 4.0,
+     "material": {"model": "bruggeman", "a": "film_o", "b": {"model": "constant", "n": 1.0}, "fraction_b": 0.5}},
+    {"name": "film", "thickness_nm": 240.0, "material": "film_o", "material_extraordinary": "film_e"}
+  ],
+  "substrate": {"model": "constant", "n": 1.52},
+  "substrate_thickness_mm": 1.0,
+  "simulate": {"wavelengths_nm": {"from": 400, "to": 900, "step": 20}, "angles_deg": [55, 65]}
+}

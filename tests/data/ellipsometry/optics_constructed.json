@@ -1,0 +1,45 @@
+{
+ "comment": "CONSTRUCTED test input in the layout of ellidft-optics; invented polarisabilities, not a calculation",
+ "material": {
+  "name": "test",
+  "density_g_cm3": 1.2,
+  "molar_mass_repeat_unit_g_mol": 104.15
+ },
+ "optical_constants": [
+  {
+   "wavelength_nm": 350.0,
+   "increment_mean_A3": [
+    14.4,
+    0.02
+   ]
+  },
+  {
+   "wavelength_nm": 450.0,
+   "increment_mean_A3": [
+    13.8,
+    0.0
+   ]
+  },
+  {
+   "wavelength_nm": 600.0,
+   "increment_mean_A3": [
+    13.4,
+    0.0
+   ]
+  },
+  {
+   "wavelength_nm": 800.0,
+   "increment_mean_A3": [
+    13.15,
+    0.0
+   ]
+  },
+  {
+   "wavelength_nm": 1000.0,
+   "increment_mean_A3": [
+    13.05,
+    0.0
+   ]
+  }
+ ]
+}

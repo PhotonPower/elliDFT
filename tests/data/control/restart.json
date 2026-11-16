@@ -1,0 +1,11 @@
+{
+  // Test input for the checkpoint: run twice; the second run must start from
+  // the stored density and take the finished frequencies from the file.
+  "name": "restart_test",
+  "geometry": "../../../data/geometries/h2o.xyz",
+  "basis": "STO-3G",
+  "functional": "PBE0",
+  "grid": [30, 110],
+  "response": {"wavelengths_nm": [589, 450], "gamma_hartree": 0.01},
+  "output_directory": "output"
+}

@@ -1,0 +1,496 @@
+{
+ "meta": {
+  "generated_by": "tests/reference/gen_m3.py",
+  "program": "PySCF",
+  "pyscf_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "python_version": "3.14.5",
+  "bohr_in_angstrom": 0.529177210903,
+  "settings": {
+   "auxiliary_basis": "def2-universal-JKFIT",
+   "metric": "Coulomb",
+   "conv_tol": 1e-12,
+   "conv_tol_grad": 1e-09,
+   "grid": {
+    "n_radial": 99,
+    "n_angular": 590
+   },
+   "small_rho_cutoff": 0.0,
+   "functionals": {
+    "HF": "exact exchange with RI-J and RI-K",
+    "PBE": "GGA_X_PBE,GGA_C_PBE with RI-J"
+   }
+  }
+ },
+ "results": [
+  {
+   "molecule": "h2",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 1.4000000000000001]
+   ],
+   "n_electrons": 2,
+   "n_functions": 10,
+   "n_auxiliary": 36,
+   "energy_total": -1.12892277100632,
+   "energy_total_without_fitting": -1.128901697491439,
+   "fitting_error": -2.1073514881120303e-05
+  },
+  {
+   "molecule": "h2",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 1.4000000000000001]
+   ],
+   "n_electrons": 2,
+   "n_functions": 10,
+   "n_auxiliary": 36,
+   "energy_total": -1.1600948104395756,
+   "energy_total_without_fitting": -1.160053489360772,
+   "fitting_error": -4.1321078803724376e-05
+  },
+  {
+   "molecule": "he",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["He"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0]
+   ],
+   "n_electrons": 2,
+   "n_functions": 5,
+   "n_auxiliary": 23,
+   "energy_total": -2.855188384546195,
+   "energy_total_without_fitting": -2.8551604793467034,
+   "fitting_error": -2.7905199491584654e-05
+  },
+  {
+   "molecule": "he",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["He"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0]
+   ],
+   "n_electrons": 2,
+   "n_functions": 5,
+   "n_auxiliary": 23,
+   "energy_total": -2.88451938826927,
+   "energy_total_without_fitting": -2.884464157207129,
+   "fitting_error": -5.5231062141114506e-05
+  },
+  {
+   "molecule": "h2o",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["O", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 1.4304288084741665, 1.107157044080814],
+    [0.0, -1.4304288084741665, 1.107157044080814]
+   ],
+   "n_electrons": 10,
+   "n_functions": 24,
+   "n_auxiliary": 113,
+   "energy_total": -75.96095894754863,
+   "energy_total_without_fitting": -75.9610148102379,
+   "fitting_error": 5.5862689265495646e-05
+  },
+  {
+   "molecule": "h2o",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["O", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 1.4304288084741665, 1.107157044080814],
+    [0.0, -1.4304288084741665, 1.107157044080814]
+   ],
+   "n_electrons": 10,
+   "n_functions": 24,
+   "n_auxiliary": 113,
+   "energy_total": -76.27199019097976,
+   "energy_total_without_fitting": -76.27196338655118,
+   "fitting_error": -2.6804428586046924e-05
+  },
+  {
+   "molecule": "nh3",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["N", "H", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [1.771328973324643, 0.0, -0.7208871503328308],
+    [-0.8856644866623206, 1.5340158893585492, -0.7208871503328308],
+    [-0.8856644866623224, -1.5340158893585492, -0.7208871503328308]
+   ],
+   "n_electrons": 10,
+   "n_functions": 29,
+   "n_auxiliary": 131,
+   "energy_total": -56.148762021358785,
+   "energy_total_without_fitting": -56.14878291846255,
+   "fitting_error": 2.08971037665151e-05
+  },
+  {
+   "molecule": "nh3",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["N", "H", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [1.771328973324643, 0.0, -0.7208871503328308],
+    [-0.8856644866623206, 1.5340158893585492, -0.7208871503328308],
+    [-0.8856644866623224, -1.5340158893585492, -0.7208871503328308]
+   ],
+   "n_electrons": 10,
+   "n_functions": 29,
+   "n_auxiliary": 131,
+   "energy_total": -56.43226827458914,
+   "energy_total_without_fitting": -56.432242978470164,
+   "fitting_error": -2.5296118977280457e-05
+  },
+  {
+   "molecule": "ch4",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["C", "H", "H", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [1.1859538348943763, 1.1859538348943763, 1.1859538348943763],
+    [1.1859538348943763, -1.1859538348943763, -1.1859538348943763],
+    [-1.1859538348943763, 1.1859538348943763, -1.1859538348943763],
+    [-1.1859538348943763, -1.1859538348943763, 1.1859538348943763]
+   ],
+   "n_electrons": 10,
+   "n_functions": 34,
+   "n_auxiliary": 147,
+   "energy_total": -40.169162978629316,
+   "energy_total_without_fitting": -40.169157144342094,
+   "fitting_error": -5.83428722222834e-06
+  },
+  {
+   "molecule": "ch4",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["C", "H", "H", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [1.1859538348943763, 1.1859538348943763, 1.1859538348943763],
+    [1.1859538348943763, -1.1859538348943763, -1.1859538348943763],
+    [-1.1859538348943763, 1.1859538348943763, -1.1859538348943763],
+    [-1.1859538348943763, -1.1859538348943763, 1.1859538348943763]
+   ],
+   "n_electrons": 10,
+   "n_functions": 34,
+   "n_auxiliary": 147,
+   "energy_total": -40.41423747057909,
+   "energy_total_without_fitting": -40.414202427219536,
+   "fitting_error": -3.504335955284432e-05
+  },
+  {
+   "molecule": "hf",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["F", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 1.732500911056906]
+   ],
+   "n_electrons": 10,
+   "n_functions": 19,
+   "n_auxiliary": 95,
+   "energy_total": -99.93242857186856,
+   "energy_total_without_fitting": -99.93250153867314,
+   "fitting_error": 7.29668045806875e-05
+  },
+  {
+   "molecule": "hf",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["F", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 1.732500911056906]
+   ],
+   "n_electrons": 10,
+   "n_functions": 19,
+   "n_auxiliary": 95,
+   "energy_total": -100.25387245991102,
+   "energy_total_without_fitting": -100.25384353927188,
+   "fitting_error": -2.8920639138618753e-05
+  },
+  {
+   "molecule": "hcl",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["Cl", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 2.4086449184480068]
+   ],
+   "n_electrons": 18,
+   "n_functions": 23,
+   "n_auxiliary": 146,
+   "energy_total": -459.9382705119286,
+   "energy_total_without_fitting": -459.93828777744335,
+   "fitting_error": 1.7265514770770096e-05
+  },
+  {
+   "molecule": "hcl",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["Cl", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 2.4086449184480068]
+   ],
+   "n_electrons": 18,
+   "n_functions": 23,
+   "n_auxiliary": 146,
+   "energy_total": -460.4609902885675,
+   "energy_total_without_fitting": -460.46095101110495,
+   "fitting_error": -3.927746251974895e-05
+  },
+  {
+   "molecule": "h2s",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["S", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 1.8173898374364839, 1.7513587068048513],
+    [0.0, -1.8173898374364839, 1.7513587068048513]
+   ],
+   "n_electrons": 18,
+   "n_functions": 28,
+   "n_auxiliary": 164,
+   "energy_total": -398.5670446134417,
+   "energy_total_without_fitting": -398.56705525970517,
+   "fitting_error": 1.06462634903437e-05
+  },
+  {
+   "molecule": "h2s",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["S", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0],
+    [0.0, 1.8173898374364839, 1.7513587068048513],
+    [0.0, -1.8173898374364839, 1.7513587068048513]
+   ],
+   "n_electrons": 18,
+   "n_functions": 28,
+   "n_auxiliary": 164,
+   "energy_total": -399.08305120550267,
+   "energy_total_without_fitting": -399.08299645398296,
+   "fitting_error": -5.475151971268133e-05
+  },
+  {
+   "molecule": "ne",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["Ne"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0]
+   ],
+   "n_electrons": 10,
+   "n_functions": 14,
+   "n_auxiliary": 77,
+   "energy_total": -128.37632444018337,
+   "energy_total_without_fitting": -128.3764068100312,
+   "fitting_error": 8.236984783138723e-05
+  },
+  {
+   "molecule": "ne",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["Ne"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0]
+   ],
+   "n_electrons": 10,
+   "n_functions": 14,
+   "n_auxiliary": 77,
+   "energy_total": -128.68788961711638,
+   "energy_total_without_fitting": -128.6878670425739,
+   "fitting_error": -2.2574542470010783e-05
+  },
+  {
+   "molecule": "ar",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["Ar"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0]
+   ],
+   "n_electrons": 18,
+   "n_functions": 18,
+   "n_auxiliary": 128,
+   "energy_total": -526.6233721011,
+   "energy_total_without_fitting": -526.6233849100342,
+   "fitting_error": 1.28089342297244e-05
+  },
+  {
+   "molecule": "ar",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["Ar"],
+   "geometry_bohr": [
+    [0.0, 0.0, 0.0]
+   ],
+   "n_electrons": 18,
+   "n_functions": 18,
+   "n_auxiliary": 128,
+   "energy_total": -527.1415459813603,
+   "energy_total_without_fitting": -527.1415270431155,
+   "fitting_error": -1.893824480703188e-05
+  },
+  {
+   "molecule": "c2h4",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["C", "C", "H", "H", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 1.265171640436953],
+    [0.0, 0.0, -1.265171640436953],
+    [0.0, 1.7551714798327052, 2.332332627300656],
+    [0.0, -1.7551714798327052, 2.332332627300656],
+    [0.0, 1.7551714798327052, -2.332332627300656],
+    [0.0, -1.7551714798327052, -2.332332627300656]
+   ],
+   "n_electrons": 16,
+   "n_functions": 48,
+   "n_auxiliary": 222,
+   "energy_total": -77.97747469757662,
+   "energy_total_without_fitting": -77.97749381260464,
+   "fitting_error": 1.9115028010219248e-05
+  },
+  {
+   "molecule": "c2h4",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["C", "C", "H", "H", "H", "H"],
+   "geometry_bohr": [
+    [0.0, 0.0, 1.265171640436953],
+    [0.0, 0.0, -1.265171640436953],
+    [0.0, 1.7551714798327052, 2.332332627300656],
+    [0.0, -1.7551714798327052, 2.332332627300656],
+    [0.0, 1.7551714798327052, -2.332332627300656],
+    [0.0, -1.7551714798327052, -2.332332627300656]
+   ],
+   "n_electrons": 16,
+   "n_functions": 48,
+   "n_auxiliary": 222,
+   "energy_total": -78.41093375045673,
+   "energy_total_without_fitting": -78.41089047026648,
+   "fitting_error": -4.3280190254790796e-05
+  },
+  {
+   "molecule": "benzene",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "HF",
+   "charge": 0,
+   "symbols": ["C", "C", "C", "C", "C", "C", "H", "H", "H", "H", "H", "H"],
+   "geometry_bohr": [
+    [2.639947396102201, 0.0, 0.0],
+    [1.3199736980511005, 2.2862615096790866, 0.0],
+    [-1.3199736980511005, 2.2862615096790866, 0.0],
+    [-2.639947396102201, 0.0, 0.0],
+    [-1.3199736980511023, -2.2862615096790844, 0.0],
+    [1.3199736980511005, -2.2862615096790866, 0.0],
+    [4.688410515196535, 0.0, 0.0],
+    [2.3442052575982677, 4.0602826095302875, 0.0],
+    [-2.3442052575982664, 4.0602826095302875, 0.0],
+    [-4.688410515196535, 0.0, 0.0],
+    [-2.34420525759827, -4.060282609530286, 0.0],
+    [2.3442052575982677, -4.0602826095302875, 0.0]
+   ],
+   "n_electrons": 42,
+   "n_functions": 114,
+   "n_auxiliary": 558,
+   "energy_total": -230.5355102713121,
+   "energy_total_without_fitting": -230.53562603462296,
+   "fitting_error": 0.00011576331087326253
+  },
+  {
+   "molecule": "benzene",
+   "basis": "def2-SVP",
+   "spherical": true,
+   "functional": "PBE",
+   "charge": 0,
+   "symbols": ["C", "C", "C", "C", "C", "C", "H", "H", "H", "H", "H", "H"],
+   "geometry_bohr": [
+    [2.639947396102201, 0.0, 0.0],
+    [1.3199736980511005, 2.2862615096790866, 0.0],
+    [-1.3199736980511005, 2.2862615096790866, 0.0],
+    [-2.639947396102201, 0.0, 0.0],
+    [-1.3199736980511023, -2.2862615096790844, 0.0],
+    [1.3199736980511005, -2.2862615096790866, 0.0],
+    [4.688410515196535, 0.0, 0.0],
+    [2.3442052575982677, 4.0602826095302875, 0.0],
+    [-2.3442052575982664, 4.0602826095302875, 0.0],
+    [-4.688410515196535, 0.0, 0.0],
+    [-2.34420525759827, -4.060282609530286, 0.0],
+    [2.3442052575982677, -4.0602826095302875, 0.0]
+   ],
+   "n_electrons": 42,
+   "n_functions": 114,
+   "n_auxiliary": 558,
+   "energy_total": -231.7725176418919,
+   "energy_total_without_fitting": -231.77242891134046,
+   "fitting_error": -8.873055145386388e-05
+  }
+ ]
+}

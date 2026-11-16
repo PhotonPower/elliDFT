@@ -1,0 +1,19 @@
+{
+  // Vorlage für einen Photoinitiator in der Zwei-Photonen-Lithographie.
+  // NICHT gerechnet: Geometrie, Wellenlänge und Filmdaten sind Platzhalter
+  // und vom Auftraggeber zu setzen. Für den Server gedacht.
+  "geometry": "initiator.xyz",
+  "basis": "def2-SVPD",
+  "functional": "CAM-B3LYP",
+  "grid": [75, 302],
+  "aux_basis": "def2-universal-JKFIT",
+  "time_step": 0.2,
+  "fock_tolerance": 1e-11,
+
+  // Zwei-Photonen-Querschnitt als Spektrum um die Schreibwellenlänge
+  "two_photon": {"states": 8, "amplitude": 0.01, "duration": 300, "half_width_ev": 0.1,
+                 "wavelengths_nm": {"from": 650, "to": 950, "step": 5}},
+
+  // optischer Kerr-Effekt bei der Schreibwellenlänge; "film" nur für das Harz sinnvoll
+  "kerr": {"wavelengths_nm": [780], "amplitude": 0.01, "ramp_time": 300, "periods": 2}
+}

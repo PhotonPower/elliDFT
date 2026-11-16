@@ -1,0 +1,101 @@
+{
+  "6-31G*": {
+    "downloaded_utc": "2026-11-14T18:46:55Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "6-31g_st.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "7e0e7015d366560b5880ffb88dc3f4c984135a89ac7d643b5e2589773497c8b5",
+    "source": "https://www.basissetexchange.org/api/basis/6-31g%2A/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "STO-3G": {
+    "downloaded_utc": "2026-11-14T18:46:54Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "sto-3g.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "cce776f7309c3cb45f4940545d202a6832266a2789a4a74ff9486d8019929d5a",
+    "source": "https://www.basissetexchange.org/api/basis/sto-3g/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "aug-cc-pVDZ": {
+    "downloaded_utc": "2026-11-14T18:46:59Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "aug-cc-pvdz.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "8591fe42237a91fbcc163d892f7d4647a242d6e2f0ced4a463200a7eaa6691e4",
+    "source": "https://www.basissetexchange.org/api/basis/aug-cc-pvdz/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "aug-cc-pVTZ": {
+    "downloaded_utc": "2026-11-14T18:46:59Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "aug-cc-pvtz.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "db405affbbfc170f44afec1f8d1263189a9d8cb84836574eda80d4f8d218f70f",
+    "source": "https://www.basissetexchange.org/api/basis/aug-cc-pvtz/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "cc-pVDZ": {
+    "downloaded_utc": "2026-11-14T18:46:58Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "cc-pvdz.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "4437335f9861ef3f1f0158d63b502dea73570ff0b9113beebf0784f6fc6018c7",
+    "source": "https://www.basissetexchange.org/api/basis/cc-pvdz/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "def2-SVP": {
+    "downloaded_utc": "2026-11-14T18:46:55Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "def2-svp.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "82f8a18eec7fc559b84dabc1e4fbdc37336b16370f9bdbbe2ed740abf73dcec3",
+    "source": "https://www.basissetexchange.org/api/basis/def2-svp/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "def2-SVPD": {
+    "downloaded_utc": "2026-11-14T18:46:57Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "def2-svpd.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "fa901aefbc71a36b8d73ab6a26e1f0e3aa86512f564a06cc5de983e6bec99d2f",
+    "source": "https://www.basissetexchange.org/api/basis/def2-svpd/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "def2-TZVP": {
+    "downloaded_utc": "2026-11-14T18:46:56Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "def2-tzvp.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "c5cbd2a6c9cc1e0dc450378f176c7c716c212fdb74211107bda8096c36e34e58",
+    "source": "https://www.basissetexchange.org/api/basis/def2-tzvp/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "def2-TZVPD": {
+    "downloaded_utc": "2026-11-14T18:46:57Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "def2-tzvpd.nw",
+    "format": "nwchem",
+    "role": "orbital",
+    "sha256": "34b809f395f6ba7597a86555c54018f5ab8b43d6e1e8a11b8e3354e9fa9e127f",
+    "source": "https://www.basissetexchange.org/api/basis/def2-tzvpd/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "def2-universal-JFIT": {
+    "downloaded_utc": "2026-11-14T18:47:01Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "def2-universal-jfit.nw",
+    "format": "nwchem",
+    "role": "auxiliary",
+    "sha256": "e5d0481a7851c76f6fcaea0df279b45d94925aedf71d59722b1b40987415d230",
+    "source": "https://www.basissetexchange.org/api/basis/def2-universal-jfit/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  },
+  "def2-universal-JKFIT": {
+    "downloaded_utc": "2026-11-14T18:47:00Z",
+    "elements": "H-Ar (Z=1..18)",
+    "file": "def2-universal-jkfit.nw",
+    "format": "nwchem",
+    "role": "auxiliary",
+    "sha256": "88b241612ad68633d23558245aa7ebb9745111426196e061db48422209b1504f",
+    "source": "https://www.basissetexchange.org/api/basis/def2-universal-jkfit/format/nwchem/?elements=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+  }
+}

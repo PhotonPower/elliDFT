@@ -1,0 +1,44 @@
+{
+ "meta": {
+  "generated_by": "tests/reference/gen_m1.py",
+  "program": "PySCF",
+  "pyscf_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "python_version": "3.14.5",
+  "bohr_in_angstrom": 0.529177210903,
+  "settings": {
+   "conventions": {
+    "order_spherical": "p: x y z; l >= 2: m = -l..+l (real solid harmonics)",
+    "order_cartesian": "lexicographic: xx xy xz yy yz zz, ...",
+    "normalisation": "spherical: 1; cartesian l >= 2: radial part only (libcint)",
+    "nuclear": "-sum_A Z_A <mu|1/r_A|nu>, point nuclei",
+    "dipole": "<mu|r_k|nu>, origin (0,0,0)",
+    "eri": "(mu nu|lambda sigma), chemists' notation",
+    "packing_symmetric": "lower triangle, row by row: (0,0) (1,0) (1,1) (2,0) ...",
+    "packing_eri": "8-fold: ij = i(i+1)/2 + j for i >= j, value index ij(ij+1)/2 + kl for ij >= kl"
+   }
+  }
+ },
+ "molecule": {
+  "charge": 0,
+  "symbols": ["Ne"],
+  "geometry_bohr": [
+   [0.0, 0.0, 0.0]
+  ]
+ },
+ "basis": {
+  "name": "STO-3G",
+  "spherical": true
+ },
+ "n_functions": 5,
+ "function_labels": ["0 Ne 1s", "0 Ne 2s", "0 Ne 2px", "0 Ne 2py", "0 Ne 2pz"],
+ "matrices": {
+  "overlap": [1.0, 0.24278165634891707, 0.9999999999999999, 0.0, 0.0, 0.9999999999999998, 0.0, 0.0, 0.0, 0.9999999999999998, 0.0, 0.0, 0.0, 0.0, 0.9999999999999998],
+  "kinetic": [45.934871607832385, -0.2574198803196042, 1.3240367559004664, 0.0, 0.0, 4.143073240832874, 0.0, 0.0, 0.0, 4.143073240832874, 0.0, 0.0, 0.0, 0.0, 4.143073240832874],
+  "nuclear": [-95.35932548178967, -11.601267391290598, -14.483069519262997, 0.0, 0.0, -14.367127639558337, 0.0, 0.0, 0.0, -14.367127639558337, 0.0, 0.0, 0.0, 0.0, -14.367127639558337],
+  "dipole_x": [0.0, 0.0, 0.0, 0.041355516632704405, 0.5009162949388201, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "dipole_y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.041355516632704405, 0.5009162949388201, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "dipole_z": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.041355516632704405, 0.5009162949388201, 0.0, 0.0, 0.0]
+ }
+}

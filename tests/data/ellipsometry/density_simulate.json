@@ -1,0 +1,7 @@
+{
+  "comment": "Test input: produces density_data.txt (film 85 nm, density 1.047 g/cm^3)",
+  "layers": [{"name": "film", "thickness_nm": 85.0,
+              "material": {"model": "ellidft", "file": "optics_constructed.json", "density_g_cm3": 1.047}}],
+  "substrate": {"model": "table", "file": "substrate_constructed.txt"},
+  "simulate": {"wavelengths_nm": {"from": 400, "to": 900, "step": 25}, "angles_deg": [60, 70]}
+}

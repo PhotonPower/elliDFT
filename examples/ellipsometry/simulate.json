@@ -1,0 +1,11 @@
+{
+  // Forward calculation: polymer film on a thin oxide on the substrate.
+  "ambient": {"model": "constant", "n": 1.0},
+  "layers": [
+    {"name": "film", "thickness_nm": 132.0,
+     "material": {"model": "sellmeier", "B": [1.4435], "C_um2": [0.020216]}},
+    {"name": "oxide", "thickness_nm": 2.0, "material": {"model": "cauchy", "A": 1.45, "B": 0.0036}}
+  ],
+  "substrate": {"model": "table", "file": "substrate_invented.txt"},
+  "simulate": {"wavelengths_nm": {"from": 400, "to": 900, "step": 10}, "angles_deg": [65, 70, 75]}
+}

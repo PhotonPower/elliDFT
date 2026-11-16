@@ -1,0 +1,45 @@
+{
+ "meta": {
+  "generated_by": "tests/reference/gen_m1.py",
+  "program": "PySCF",
+  "pyscf_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "python_version": "3.14.5",
+  "bohr_in_angstrom": 0.529177210903,
+  "settings": {
+   "conventions": {
+    "order_spherical": "p: x y z; l >= 2: m = -l..+l (real solid harmonics)",
+    "order_cartesian": "lexicographic: xx xy xz yy yz zz, ...",
+    "normalisation": "spherical: 1; cartesian l >= 2: radial part only (libcint)",
+    "nuclear": "-sum_A Z_A <mu|1/r_A|nu>, point nuclei",
+    "dipole": "<mu|r_k|nu>, origin (0,0,0)",
+    "eri": "(mu nu|lambda sigma), chemists' notation",
+    "packing_symmetric": "lower triangle, row by row: (0,0) (1,0) (1,1) (2,0) ...",
+    "packing_eri": "8-fold: ij = i(i+1)/2 + j for i >= j, value index ij(ij+1)/2 + kl for ij >= kl"
+   }
+  }
+ },
+ "molecule": {
+  "charge": 0,
+  "symbols": ["H", "H"],
+  "geometry_bohr": [
+   [0.0, 0.0, 0.0],
+   [0.0, 0.0, 1.4000000000000001]
+  ]
+ },
+ "basis": {
+  "name": "STO-3G",
+  "spherical": true
+ },
+ "n_functions": 2,
+ "function_labels": ["0 H 1s", "1 H 1s"],
+ "matrices": {
+  "overlap": [0.9999999999999999, 0.6593182058047427, 0.9999999999999999],
+  "kinetic": [0.7600318799223883, 0.23645465827424286, 0.7600318799223883],
+  "nuclear": [-1.8804408903911483, -1.194834621969943, -1.8804408903911483],
+  "dipole_x": [0.0, 0.0, 0.0],
+  "dipole_y": [0.0, 0.0, 0.0],
+  "dipole_z": [0.0, 0.46152274406331995, 1.4]
+ }
+}

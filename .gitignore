@@ -1,0 +1,14 @@
+build/
+build-*/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+compile_commands.json
+.cache/
+results/
+*.partial.json
+
+# Nicht veröffentlicht, liegt nur lokal (Entscheidung vom 16.11.2026)
+docs/Auftrag.md
+third_party/lebedev/Lebedev-Laikov.F

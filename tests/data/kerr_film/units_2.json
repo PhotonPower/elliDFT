@@ -1,0 +1,18 @@
+{
+ "comment": "CONSTRUCTED test input, invented numbers",
+ "program": "ellidft-nonlinear",
+ "kerr": [
+  {
+   "wavelength_nm": 780.0,
+   "gamma_average_au": 2400.0,
+   "largest_fit_residual": 0.001,
+   "steps_converged": true
+  },
+  {
+   "wavelength_nm": 633.0,
+   "gamma_average_au": 2560.0,
+   "largest_fit_residual": 0.002,
+   "steps_converged": true
+  }
+ ]
+}

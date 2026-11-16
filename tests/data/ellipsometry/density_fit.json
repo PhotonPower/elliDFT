@@ -1,0 +1,9 @@
+{
+  "comment": "Test input: thickness and density from density_data.txt; expected 85 nm and 1.047 g/cm^3",
+  "layers": [{"name": "film", "thickness_nm": {"value": 70.0, "fit": true},
+              "material": {"model": "ellidft", "file": "optics_constructed.json",
+                           "density_g_cm3": {"value": 1.2, "fit": true, "min": 0.5, "max": 2.0}}}],
+  "substrate": {"model": "table", "file": "substrate_constructed.txt"},
+  "data": {"file": "density_data.txt"},
+  "residuals": "psi_delta"
+}

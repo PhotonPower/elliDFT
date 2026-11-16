@@ -1,0 +1,44 @@
+{
+ "meta": {
+  "generated_by": "tests/reference/gen_m1.py",
+  "program": "PySCF",
+  "pyscf_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "python_version": "3.14.5",
+  "bohr_in_angstrom": 0.529177210903,
+  "settings": {
+   "conventions": {
+    "order_spherical": "p: x y z; l >= 2: m = -l..+l (real solid harmonics)",
+    "order_cartesian": "lexicographic: xx xy xz yy yz zz, ...",
+    "normalisation": "spherical: 1; cartesian l >= 2: radial part only (libcint)",
+    "nuclear": "-sum_A Z_A <mu|1/r_A|nu>, point nuclei",
+    "dipole": "<mu|r_k|nu>, origin (0,0,0)",
+    "eri": "(mu nu|lambda sigma), chemists' notation",
+    "packing_symmetric": "lower triangle, row by row: (0,0) (1,0) (1,1) (2,0) ...",
+    "packing_eri": "8-fold: ij = i(i+1)/2 + j for i >= j, value index ij(ij+1)/2 + kl for ij >= kl"
+   }
+  }
+ },
+ "molecule": {
+  "charge": 0,
+  "symbols": ["He"],
+  "geometry_bohr": [
+   [0.0, 0.0, 0.0]
+  ]
+ },
+ "basis": {
+  "name": "cc-pVDZ",
+  "spherical": true
+ },
+ "n_functions": 5,
+ "function_labels": ["0 He 1s", "0 He 2s", "0 He 2px", "0 He 2py", "0 He 2pz"],
+ "matrices": {
+  "overlap": [0.9999999999999998, 0.8888449075182611, 1.0, 0.0, 0.0, 1.0000000000000004, 0.0, 0.0, 0.0, 1.0000000000000004, 0.0, 0.0, 0.0, 0.0, 1.0000000000000004],
+  "kinetic": [1.4275878260295292, 0.5055654490349072, 0.4464, 0.0, 0.0, 3.187500000000001, 0.0, 0.0, 0.0, 3.187500000000001, 0.0, 0.0, 0.0, 0.0, 3.187500000000001],
+  "nuclear": [-3.3686003311712285, -2.0858259412853486, -1.7410711381518775, 0.0, 0.0, -2.402502709564773, 0.0, 0.0, 0.0, -2.402502709564773, 0.0, 0.0, 0.0, 0.0, -2.402502709564773],
+  "dipole_x": [0.0, 0.0, 0.0, 0.4833136895127428, 0.49786516613366605, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "dipole_y": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4833136895127428, 0.49786516613366605, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  "dipole_z": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4833136895127428, 0.49786516613366605, 0.0, 0.0, 0.0]
+ }
+}

@@ -1,0 +1,4 @@
+2
+HCl, r = 1.2746; nominal test geometry (scripts/make_geometries.py), not a literature value
+Cl     0.000000000000000     0.000000000000000     0.000000000000000
+H      0.000000000000000     0.000000000000000     1.274600000000000

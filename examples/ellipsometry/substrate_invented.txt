@@ -1,0 +1,13 @@
+# INVENTED numbers, of the size of a silicon wafer, for the example only.
+# NOT measured data: for a real evaluation put a measured or published table
+# of the substrate here (wavelength_nm n k).
+# wavelength_nm n k
+300 5.00 4.20
+350 5.45 2.95
+400 5.55 0.38
+450 4.67 0.14
+500 4.30 0.07
+600 3.94 0.03
+700 3.78 0.01
+800 3.69 0.006
+1000 3.57 0.0

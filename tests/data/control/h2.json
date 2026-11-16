@@ -1,0 +1,10 @@
+{
+  // Test input of the main program: H2 at the anchor geometry of the
+  // specification (STO-3G, 1.4 Bohr: -1.1167 Hartree).
+  "name": "h2_test",
+  "geometry": "../../../data/geometries/h2.xyz",
+  "basis": "STO-3G",
+  "functional": "HF",
+  "response": {"wavelengths_nm": [589], "states": 1},
+  "output_directory": "output"
+}

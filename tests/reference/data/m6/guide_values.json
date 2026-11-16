@@ -1,0 +1,175 @@
+{
+ "meta": {
+  "generated_by": "tests/reference/gen_m6.py",
+  "refractive_index_source": "refractiveindex.info (Polyanskiy, Sci. Data 11, 94 (2024)), Sellmeier fits to Sultanova, Kasarova, Nikolov, Acta Phys. Pol. A 116, 585 (2009); 20 C; database pages consulted 2026-11-14, original paper not consulted",
+  "density_source": "NONE CHECKED: rounded textbook values taken from the specification",
+  "fit_range_nm": [
+   436.8,
+   1052.0
+  ]
+ },
+ "materials": {
+  "polystyrene": {
+   "repeat_unit": "C8H8",
+   "molar_mass_g_mol": 104.15,
+   "density_g_cm3": 1.05,
+   "sellmeier_B": 1.4435,
+   "sellmeier_C_um2": 0.020216,
+   "n_589nm": 1.591484070596161,
+   "polarizability_volume_per_unit_A3": 13.296992952833977,
+   "refractive_index": [
+    {
+     "wavelength_nm": 400,
+     "n": 1.6285771373334388,
+     "extrapolated": true
+    },
+    {
+     "wavelength_nm": 450,
+     "n": 1.6135642931462526,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 500,
+     "n": 1.6032768445664918,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 550,
+     "n": 1.5958939298996344,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 589,
+     "n": 1.591484070596161,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 600,
+     "n": 1.5904035251992983,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 650,
+     "n": 1.586203103317102,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 700,
+     "n": 1.582914234968284,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 750,
+     "n": 1.5802888201022673,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 800,
+     "n": 1.5781583622365947,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 850,
+     "n": 1.5764049922141532,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 900,
+     "n": 1.5749441529187829,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 950,
+     "n": 1.5737138515040503,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 1000,
+     "n": 1.5726677676716987,
+     "extrapolated": false
+    }
+   ]
+  },
+  "pmma": {
+   "repeat_unit": "C5H8O2",
+   "molar_mass_g_mol": 100.12,
+   "density_g_cm3": 1.18,
+   "sellmeier_B": 1.1819,
+   "sellmeier_C_um2": 0.011313,
+   "n_589nm": 1.4905504458520547,
+   "polarizability_volume_per_unit_A3": 9.733898002600732,
+   "refractive_index": [
+    {
+     "wavelength_nm": 400,
+     "n": 1.5072577917188226,
+     "extrapolated": true
+    },
+    {
+     "wavelength_nm": 450,
+     "n": 1.5006118415114345,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 500,
+     "n": 1.4959673385178156,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 550,
+     "n": 1.4925878124522123,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 589,
+     "n": 1.4905504458520547,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 600,
+     "n": 1.4900490723563757,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 650,
+     "n": 1.4880919492392486,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 700,
+     "n": 1.4865504741303466,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 750,
+     "n": 1.4853141939741097,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 800,
+     "n": 1.484307202734317,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 850,
+     "n": 1.4834758946159121,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 900,
+     "n": 1.4827815144428307,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 950,
+     "n": 1.4821954660648504,
+     "extrapolated": false
+    },
+    {
+     "wavelength_nm": 1000,
+     "n": 1.4816962677237104,
+     "extrapolated": false
+    }
+   ]
+  }
+ }
+}
