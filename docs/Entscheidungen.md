@@ -29,6 +29,7 @@ Wortlaut des Auftrags ändert, gilt diese Liste.
 | 16.11.2026 | Rechte und Lizenz | Das Projekt ist in der Freizeit des Auftraggebers entstanden; die Rechte liegen bei ihm. MIT bleibt. | `LICENSE` |
 | 16.11.2026 | Fremddaten vor der Veröffentlichung | Hinweise auf Fremddaten und Abhängigkeiten in einer eigenen Datei; `Lebedev-Laikov.F` nicht mehr im Repository (nur die daraus erzeugten Tabellen); das Auftragsdokument nicht mehr im Repository. Beide liegen nur lokal und sind in `.gitignore` eingetragen. | `THIRD_PARTY_NOTICES.md`, `third_party/lebedev/README.md`, `.gitignore` |
 | 16.11.2026 | Git-Historie | Die Veröffentlichung beginnt mit einer neuen Historie aus einem Commit; die Entwicklungsgeschichte bis dahin wird nicht veröffentlicht. Neues GitHub-Repository statt Überschreiben des alten. | Commit „elliDFT: erster öffentlicher Stand“ |
+| 16.11.2026 | Veröffentlichung | Repository öffentlich; Änderungen gehen direkt auf `main` und werden ohne Rückfrage gepusht | Sichtbarkeit am 16.11.2026 auf öffentlich gestellt |
 
 ## Erläuterungen
 
